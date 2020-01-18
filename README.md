@@ -1,8 +1,10 @@
 # minikube
 Kubernetes projects
 
+
+
+
+### Refrences
 ```
-kubectl create clusterrolebinding service-reader-pod \
-  --clusterrole=service-reader  \
-  --serviceaccount=default:default
+https://stackoverflow.com/questions/47973570/kubernetes-log-user-systemserviceaccountdefaultdefault-cannot-get-services
 ```
