@@ -10,7 +10,7 @@ rules:
 
 ---
 apiVersion: rbac.authorization.k8s.io/v1
-# This cluster role binding allows anyone in the "manager" group to read secrets in any namespace.
+# This cluster role binding allows default user to read configmaps in any namespace.
 kind: ClusterRoleBinding
 metadata:
   name: service-reader
